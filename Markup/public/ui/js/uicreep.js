@@ -1,0 +1,1 @@
+var swiper=new Swiper(".home-banner .swiper-container",{autoplay:9e3}),swiper=new Swiper(".other-vessel .swiper-container",{pagination:".other-vessel .swiper-pagination",slidesPerView:4,paginationClickable:!0,spaceBetween:30,nextButton:".other-vessel .next",prevButton:".other-vessel .prev"});
