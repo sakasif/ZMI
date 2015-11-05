@@ -550,6 +550,9 @@ a {
 // --------------------------------------
 .partners {
 	margin-bottom:40px;
+	.container {
+		position:relative;
+	}
 	.partner-list {
 		margin-top:20px;
 		li {
@@ -560,6 +563,20 @@ a {
 					width:100%;
 					height:auto;
 				}
+			}
+		}
+	}
+	.cool {
+		position:absolute;
+		right:20px;
+		top:60px;
+		.next,
+		.prev {
+			font-size:40px;
+			color:#ccc;
+			&.swiper-button-disabled {
+				cursor:not-allowed;
+				opacity:0.5;
 			}
 		}
 	}
@@ -622,6 +639,20 @@ a {
 					width:100%;
 					height:auto;
 				}
+			}
+		}
+	}
+	.cool {
+		position:absolute;
+		right:0px;
+		top:-50px;
+		.next,
+		.prev {
+			font-size:40px;
+			color:#ccc;
+			&.swiper-button-disabled {
+				cursor:not-allowed;
+				opacity:0.5;			
 			}
 		}
 	}
