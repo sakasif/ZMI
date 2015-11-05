@@ -39,5 +39,4 @@ var swiper = new Swiper('.clients .swiper-container', {
 
 $('.mobile-nav').click(function(){
     $('#main-head .bottom ul').slideToggle();
-
 });
