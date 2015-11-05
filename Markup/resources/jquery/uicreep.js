@@ -36,6 +36,7 @@ var swiper = new Swiper('.clients .swiper-container', {
     spaceBetween: 20,
     nextButton: '.clients .next',
     prevButton: '.clients .prev',
+});    
 
 $('.mobile-nav').click(function(){
     $('#main-head .bottom ul').slideToggle();
