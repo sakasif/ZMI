@@ -316,6 +316,52 @@ a {
 	}
 }
 
+
+
+#nav-wrap-dropdown {
+	ul{
+		a{
+			display:block;
+		}
+		li{
+			position:relative;
+			&:hover{
+				background:transparent;
+				ul{
+					display:block
+				}
+
+			}
+		}
+		ul{
+			display:none;
+			position:absolute;
+			top:100%;
+			left:0;
+			background:#fff;
+			padding:0px;
+			z-index: 100;
+			@extend .list-unstyled;
+			li{
+				width:200px;
+			}
+			a{
+				line-height:35px;
+				padding:5px 10px !important;
+				&:after {
+					content:'' !important;
+				}
+				&:hover{
+					background-color: #0055a4;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+
+
 // 2.0 home-banner starts here
 // -----------------------------------------
 .home-banner {
