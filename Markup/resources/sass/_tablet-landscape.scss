@@ -2,5 +2,48 @@
 ==================================================================*/
 
 @media (min-width: $screen-md) and (max-width: $screen-md-max) and (orientation: landscape) {
-	
+    .home-banner {
+        .swiper-slide {
+            min-height: 350px;
+        }
+    }
+    .services {
+        .doubletitle {
+            font-size: 25px;
+        }
+        .main-box {
+            p {
+                line-height: 17px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+    
+    .fleet-list {
+        .fleetbox {
+            p {
+                line-height: 18px;
+            }
+        }
+    }
+    
+    .fleet-image {
+        a {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    
+    .other-vessel {
+        .next, .prev {
+            top: 22%;
+        }
+    }
+    
+    .team-box {
+        padding: 10px;
+    }
+    
 }

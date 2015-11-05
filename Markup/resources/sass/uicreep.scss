@@ -314,6 +314,21 @@ a {
 			}
 		}
 	}
+    .mobile-nav {
+        background: $brand;
+        display: block;
+        padding: 10px 20px;
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        span {
+            background:#fff;
+            height: 3px;
+            width: 30px;
+            margin: 0px auto 5px;
+            display: block;
+        }
+    }
 }
 
 // 2.0 home-banner starts here
@@ -793,6 +808,11 @@ a {
 // 12.0 fleet-list starts here
 // -----------------------------------
 .fleet-list {
+    li {
+        &:before {
+            display: none !important;
+        }
+    }
 	.fleetbox {
 		border:2px #f5f5f5 solid;
 		margin-bottom:30px;
@@ -824,7 +844,7 @@ a {
 			i {
 				margin-left:10px;
 			}
-		}
+		}        
 	}
 }
 
@@ -834,6 +854,9 @@ a {
 	margin-top:0;
 	background:#e6e6e6;
 	li {
+        &:before {
+            display: none !important;
+        }
 		a {
 			background:transparent;
 			border:0;
@@ -968,7 +991,6 @@ a {
 		width:100%;
 		height:auto;
 	}
-
 	.info {
 		background-color:rgba($secbr, 0.8);
 		position:absolute;
