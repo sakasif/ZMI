@@ -1,6 +1,136 @@
 /* 768 * 1280
 ================================================================*/
 
-@media (min-width: $screen-sm) and (max-width: $screen-sm-max) and (orientation: portrait) {
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+
+    #main-head {
+        .zmi-logo {
+            img {
+                height: auto;
+                width: 150%;
+            }
+        }
+        .bottom {
+            ul {
+                li {
+                    a:after {
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+    .home-banner {
+        .swiper-slide {
+            min-height: 255px;
+            .caption {
+                margin-top: 8%;
+            }
+        }
+    }
+    .home-banner.innerpage {
+        .swiper-slide {
+            min-height: 250px;
+        }
+    }
+    .services {
+        .doubletitle {
+            font-size: 25px;
+        }
+        .box.main-box {
+            height: 230px;
+            .doubletitle {
+                font-size: 32px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 8px;
+            }
+        }
+        ul {
+            li {
+                width: 32%;
+                margin-right: 8px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+    
+    .fleet-list {
+        .fleetbox {
+            p {
+                line-height: 18px;
+            }
+        }
+    }
+    
+    .fleet-image {
+        a {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    .stats {
+        background-size: cover;
+        .stat-box {
+            p {
+                line-height: 18px;
+            }
+        }
+    }
+    .vessels {
+        .intro {
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 19px;
+            margin-bottom: 5px;
+        }
+    }
+    .other-vessel {
+        .next, .prev {
+            top: 22%;
+        }
+    }
+    
+    .team-box {
+        padding: 10px;
+        .team-thumb {
+            width: 130px;
+            height: 130px;
+            img {
+                width: 130px;
+                height: 130px;
+            }
+        }
+    }
+    #main-footer {
+        .social-footer {
+            .contact {
+                float: left;
+                margin-top: 10px;
+            }
+        }
+        .below-footer {
+            .signup {
+                .form-group {
+                    input.form-control {
+                        width: 60%;
+                    }
+                    input.signup {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .doubletitle {
+        font-size: 21px;
+    }
 	
 }

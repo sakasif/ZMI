@@ -1,4 +1,202 @@
 @media (max-width: $screen-xs-max) and (orientation: portrait){ 
+    .home-banner {
+        .swiper-slide {
+            min-height: 240px;
+            .image {
+                min-height: 240px;
+                img {
+                    min-height: 240px;
+                    height: 240px;
+                    width: auto;
+                }
+            }
+            .caption {
+                h2 {
+                    font-size: 24px;
+                }
+                h3 {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+    .home-banner.innerpage {
+        .swiper-slide {
+            min-height: 240px;
+        }
+    }
+    #main-head {
+        .top {
+            position: absolute;
+            right: 20px;
+            top: -60px;
+        }
+        .bottom {
+            display: block;
+            float:left;
+            width: 100%;
+            ul {
+                background: $brand;
+                border-top: 1px solid rgba(0,0,0,0.2);
+                display: none;
+                li {
+                    float:left;
+                    width: 100%;
+                    a {
+                        color: #fff;
+                        float:left;
+                        padding: 8px 10px;
+                        width: 100%;  
+                        font-size: 18px;
+                        text-align: center;
+                        &:after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .mobile-nav {
+            display: block;
+        }
+    }
+    .welcome-home {
+        h1 {
+            font-size: 24px;
+        }
+    }
+    .services {
+        ul {
+            li {
+                margin-right: 3px;
+                margin-bottom: 3px;
+                width: 49%;
+            }
+        }
+    }
+    .services .box.main-box {
+        .doubletitle {
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+        p {
+            line-height: 16px;
+            margin-bottom: 2px;
+        }
+    }
+    .projects {
+        padding: 0px 0px 20px;
+        .doubletitle {
+            margin-top: 0px;
+        }
+    }
     
-   
+    .partners {
+        .partner-list {
+            li {
+                float: left;
+                width: 50%;
+                margin-bottom: 20px;
+                a {
+                    img {
+                        
+                    }
+                }
+            }
+        }
+        .cool {
+            position:absolute;
+       
+            top:-0;
+        }
+    }
+    .clients {
+        .client-list {
+            li {
+                float: left;
+                width: 50%;
+                margin-bottom: 20px;
+                a {
+                    img {
+                        
+                    }
+                }
+            }
+        }
+        .cool {
+            position:absolute;
+            right:20px;
+            top:-50px;
+        }
+    }
+    .stats {
+        background-size: cover;
+    }
+    #main-footer {
+        .social-footer {
+            padding: 25px 0;
+            .address {
+                margin-bottom: 20px;
+            }
+        }
+        .below-footer {
+            div.signup {
+                float: left;
+                margin-top: 20px;
+                width: 100%;
+            }
+            
+        }
+    }
+    .copyright-footer {
+        p {
+            float: none !important;
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+    
+    .fleet-list {
+        li {
+            text-decoration: none !important;
+        }
+        .fleetbox {
+            padding: 10px;
+            p {
+                line-height: 18px;
+            }
+        }
+    }
+    
+    .fleet-image {
+        margin-bottom: 15px;
+        overflow: hidden;
+        a {
+            float: left;
+            width: 100%;
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    .other-vessel {
+        display: none;
+    }
+    .doubletitle {
+        font-size: 21px;
+        margin-top: 0px;
+    }
+    .about-box {
+        margin-bottom: 20px;
+    }
+    .clients {
+        padding: 20px 0px;
+    }
+    .team-box {
+        .team-thumb {
+            margin: 0px auto 20px;
+        }
+    }
+
 }

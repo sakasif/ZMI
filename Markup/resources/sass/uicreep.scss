@@ -314,6 +314,21 @@ a {
 			}
 		}
 	}
+    .mobile-nav {
+        background: $brand;
+        display: block;
+        padding: 10px 20px;
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        span {
+            background:#fff;
+            height: 3px;
+            width: 30px;
+            margin: 0px auto 5px;
+            display: block;
+        }
+    }
 }
 
 
@@ -581,6 +596,9 @@ a {
 // --------------------------------------
 .partners {
 	margin-bottom:40px;
+	.container {
+		position:relative;
+	}
 	.partner-list {
 		margin-top:20px;
 		li {
@@ -591,6 +609,20 @@ a {
 					width:100%;
 					height:auto;
 				}
+			}
+		}
+	}
+	.cool {
+		position:absolute;
+		right:20px;
+		top:60px;
+		.next,
+		.prev {
+			font-size:40px;
+			color:#ccc;
+			&.swiper-button-disabled {
+				cursor:not-allowed;
+				opacity:0.5;
 			}
 		}
 	}
@@ -641,7 +673,7 @@ a {
 .clients {
 	padding:60px 0;
 	.doubletitle {
-		margin-top:20px;
+		margin-top:20px; 
 	}
 	.client-list {
 		li {
@@ -653,6 +685,20 @@ a {
 					width:100%;
 					height:auto;
 				}
+			}
+		}
+	}
+	.cool {
+		position:absolute;
+		right:0px;
+		top:-50px;
+		.next,
+		.prev {
+			font-size:40px;
+			color:#ccc;
+			&.swiper-button-disabled {
+				cursor:not-allowed;
+				opacity:0.5;			
 			}
 		}
 	}
@@ -808,6 +854,11 @@ a {
 // 12.0 fleet-list starts here
 // -----------------------------------
 .fleet-list {
+    li {
+        &:before {
+            display: none !important;
+        }
+    }
 	.fleetbox {
 		border:2px #f5f5f5 solid;
 		margin-bottom:30px;
@@ -839,7 +890,7 @@ a {
 			i {
 				margin-left:10px;
 			}
-		}
+		}        
 	}
 }
 
@@ -849,6 +900,9 @@ a {
 	margin-top:0;
 	background:#e6e6e6;
 	li {
+        &:before {
+            display: none !important;
+        }
 		a {
 			background:transparent;
 			border:0;
@@ -983,7 +1037,6 @@ a {
 		width:100%;
 		height:auto;
 	}
-
 	.info {
 		background-color:rgba($secbr, 0.8);
 		position:absolute;
