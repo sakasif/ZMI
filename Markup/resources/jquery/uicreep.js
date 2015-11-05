@@ -19,3 +19,7 @@ var swiper = new Swiper('.other-vessel .swiper-container', {
     nextButton: '.other-vessel .next',
     prevButton: '.other-vessel .prev',
 });
+
+$('.mobile-nav').click(function(){
+    $('#main-head .bottom ul').slideToggle();
+});
