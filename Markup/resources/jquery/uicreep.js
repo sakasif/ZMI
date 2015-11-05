@@ -20,6 +20,23 @@ var swiper = new Swiper('.other-vessel .swiper-container', {
     prevButton: '.other-vessel .prev',
 });
 
+var swiper = new Swiper('.partners .swiper-container', {
+    pagination: '.partners .swiper-pagination',
+    slidesPerView: 6,
+    paginationClickable: true,
+    spaceBetween: 30,
+    nextButton: '.partners .next',
+    prevButton: '.partners .prev',
+});
+
+var swiper = new Swiper('.clients .swiper-container', {
+    pagination: '.clients .swiper-pagination',
+    slidesPerView: 5,
+    paginationClickable: true,
+    spaceBetween: 20,
+    nextButton: '.clients .next',
+    prevButton: '.clients .prev',
+
 $('.mobile-nav').click(function(){
     $('#main-head .bottom ul').slideToggle();
 });
